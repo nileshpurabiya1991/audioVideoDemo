@@ -1,0 +1,25 @@
+{
+  "authHost": "https://127.0.0.1:8000/",
+  "authEndpoint": "/broadcasting/auth",
+  "clients": [
+    {
+      "appId": "8ba2cfd665d9170a",
+      "key": "7d49476fb0eb3fee26dfbb5a652e36f5"
+    }
+  ],
+  "database": "sqlite",
+  "databasePath": "/home/nilesh/echo-server.sqlite",
+  "devMode": true,
+  "host": "0.0.0.0",
+  "port": 6001,
+  "protocol": "http",
+  "socketio": {},
+  "sslCertPath": "",
+  "sslKeyPath": "",
+  "apiOriginAllow": {
+    "allowCors": true,
+    "allowOrigin": "https://127.0.0.1:8000/",
+    "allowMethods": "GET, POST",
+    "allowHeaders": "Origin, Content-Type, X-Auth-Token, Authorization, X-Requested-With"
+  }
+}
